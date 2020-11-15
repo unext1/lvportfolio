@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
     "next": "^10.0.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.9.6"
   }
 }
