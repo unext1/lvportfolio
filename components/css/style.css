@@ -8,6 +8,18 @@ main {
   }
 }
 
+.loptop-size {
+  font-size: 300px;
+  margin-top: 55px;
+}
+
+@media (min-width: 880px) {
+  .loptop-size {
+    font-size: 400px;
+    margin-top: 0;
+  }
+}
+
 body {
   font-family: 'Poppins', helvetica;
   line-height: 20px;
