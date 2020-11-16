@@ -34,23 +34,23 @@ export default function Skils() {
 
   return (
     <>
-      <div class="text-center mb-2 mt-16" id="portfolio">
-        <h1 class="text-3xl uppercase text-gray-900 font-bold">
+      <div className="mt-16 mb-2 text-center" id="portfolio">
+        <h1 className="text-3xl font-bold text-gray-900 uppercase">
           My <span className="text-blue-500">Portfolio</span>
         </h1>
       </div>
-      <section class="py-5">
-        <div class="max-w-5xl mx-auto text-center">
-          <div class="flex items-center justify-center">
-            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="py-5">
+        <div className="max-w-5xl mx-auto text-center">
+          <div className="flex items-center justify-center">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {portfolio.map((i) => (
-                <div class="max-w-xs w-full bg-blue-500 rounded-lg">
+                <div className="w-full max-w-xs bg-blue-500 rounded-lg">
                   <a
                     href={i.href}
                     target="__blank"
-                    class="flex items-center justify-center h-64 border-b-8 border-blue-500 rounded-md overflow-hidden hover:opacity-50 transition duration-150 ease-in-out"
+                    className="flex items-center justify-center h-64 overflow-hidden transition duration-150 ease-in-out border-b-8 border-blue-500 rounded-md hover:opacity-50"
                   >
-                    <img class="object-cover h-full w-full" src={i.image} alt="" />
+                    <img className="object-cover w-full h-full" src={i.image} alt="" />
                   </a>
                 </div>
               ))}

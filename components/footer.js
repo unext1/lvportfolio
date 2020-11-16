@@ -1,17 +1,17 @@
 export default function Footer() {
   return (
     <>
-      <div class="bg-gray-900">
-        <div class="max-w-6xl m-auto text-gray-900 flex flex-wrap justify-start">
-          <div class="bg-gray-900 pt-2 ">
-            <div class="flex pb-5 pl-24 md:pl-16 m-auto pt-5 text-white text-sm flex-col  md:flex-row max-w-6xl">
-              <div class="mt-2">© Copyright 2020. All Rights Reserved.</div>
-              <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-                <a href="/#" class="w-6 mx-1"></a>
-                <a href="/#" class="w-6 mx-1"></a>
-                <a href="/#" class="w-6 mx-1"></a>
-                <a href="/#" class="w-6 mx-1"></a>
-                <a href="/#" class="w-6 mx-1"></a>
+      <div className="bg-gray-900">
+        <div className="flex flex-wrap justify-start max-w-6xl m-auto text-gray-900">
+          <div className="pt-2 bg-gray-900 ">
+            <div className="flex flex-col max-w-6xl pt-5 pb-5 pl-24 m-auto text-sm text-white md:pl-16 md:flex-row">
+              <div className="mt-2">© Copyright 2020. All Rights Reserved.</div>
+              <div className="flex flex-row mt-2 md:flex-auto md:flex-row-reverse">
+                <a href="/#" className="w-6 mx-1"></a>
+                <a href="/#" className="w-6 mx-1"></a>
+                <a href="/#" className="w-6 mx-1"></a>
+                <a href="/#" className="w-6 mx-1"></a>
+                <a href="/#" className="w-6 mx-1"></a>
               </div>
             </div>
           </div>

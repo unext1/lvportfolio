@@ -1,19 +1,19 @@
 export default function Skils() {
   return (
     <>
-      <div class="text-center mb-2" style={{ marginTop: '-6%' }} id="skils">
-        <h1 class="text-3xl uppercase text-gray-900 font-bold">
+      <div className="mb-2 text-center" style={{ marginTop: '-6%' }} id="skils">
+        <h1 className="text-3xl font-bold text-gray-900 uppercase">
           At Your <span className="text-blue-500">Service</span>
         </h1>
       </div>
-      <div class="flex items-center text-gray-800">
-        <div class="p-10 w-full">
-          <div class="grid grid-cols-12 gap-4">
-            <div class="col-span-12 sm:col-span-6 md:col-span-3 shadow-md">
-              <div class="flex flex-row bg-gray-900 shadow-sm rounded p-4">
-                <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-full bg-white text-blue-500">
+      <div className="flex items-center text-gray-800">
+        <div className="w-full p-10">
+          <div className="grid grid-cols-12 gap-4">
+            <div className="col-span-12 shadow-md sm:col-span-6 md:col-span-3">
+              <div className="flex flex-row p-4 bg-gray-900 rounded shadow-sm">
+                <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-blue-500 bg-white rounded-full">
                   <svg
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -27,16 +27,16 @@ export default function Skils() {
                     ></path>
                   </svg>
                 </div>
-                <div class="mt-4 ml-4">
-                  <div class="text-sm text-white">Up to Date</div>
+                <div className="mt-4 ml-4">
+                  <div className="text-sm text-white">Up to Date</div>
                 </div>
               </div>
             </div>
-            <div class="col-span-12 sm:col-span-6 md:col-span-3 shadow-md">
-              <div class="flex flex-row bg-white shadow-sm rounded p-4">
-                <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-full bg-gray-100 text-gray-900">
+            <div className="col-span-12 shadow-md sm:col-span-6 md:col-span-3">
+              <div className="flex flex-row p-4 bg-white rounded shadow-sm">
+                <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-gray-900 bg-gray-100 rounded-full">
                   <svg
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -50,17 +50,17 @@ export default function Skils() {
                     ></path>
                   </svg>
                 </div>
-                <div class="flex flex-col flex-grow ml-4">
-                  <div class="text-sm text-gray-900">Responsive Design</div>
-                  <div class="font-bold">230</div>
+                <div className="flex flex-col flex-grow ml-4">
+                  <div className="text-sm text-gray-900">Responsive Design</div>
+                  <div className="font-bold">230</div>
                 </div>
               </div>
             </div>
-            <div class="col-span-12 sm:col-span-6 md:col-span-3 shadow-md">
-              <div class="flex flex-row bg-gray-900 shadow-sm rounded p-4">
-                <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-full bg-white text-blue-500">
+            <div className="col-span-12 shadow-md sm:col-span-6 md:col-span-3">
+              <div className="flex flex-row p-4 bg-gray-900 rounded shadow-sm">
+                <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-blue-500 bg-white rounded-full">
                   <svg
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -74,17 +74,17 @@ export default function Skils() {
                     ></path>
                   </svg>
                 </div>
-                <div class="flex flex-col flex-grow ml-4">
-                  <div class="text-sm text-white">Sturdy Themes</div>
-                  <div class="font-bold text-white">1259</div>
+                <div className="flex flex-col flex-grow ml-4">
+                  <div className="text-sm text-white">Sturdy Themes</div>
+                  <div className="font-bold text-white">1259</div>
                 </div>
               </div>
             </div>
-            <div class="col-span-12 sm:col-span-6 md:col-span-3 shadow-md">
-              <div class="flex flex-row bg-white shadow-sm rounded p-4">
-                <div class="flex items-center justify-center flex-shrink-0 h-12 w-12 rounded-full bg-gray-100 text-gray-900">
+            <div className="col-span-12 shadow-md sm:col-span-6 md:col-span-3">
+              <div className="flex flex-row p-4 bg-white rounded shadow-sm">
+                <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-gray-900 bg-gray-100 rounded-full">
                   <svg
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -98,9 +98,9 @@ export default function Skils() {
                     ></path>
                   </svg>
                 </div>
-                <div class="flex flex-col flex-grow ml-4">
-                  <div class="text-sm text-gray-900">Revenue</div>
-                  <div class="font-bold">$ 32k</div>
+                <div className="flex flex-col flex-grow ml-4">
+                  <div className="text-sm text-gray-900">Revenue</div>
+                  <div className="font-bold">$ 32k</div>
                 </div>
               </div>
             </div>
