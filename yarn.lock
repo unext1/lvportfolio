@@ -53,6 +53,18 @@
   dependencies:
     cross-fetch "3.0.5"
 
+"@animated-burgers/burger-arrow@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@animated-burgers/burger-arrow/-/burger-arrow-1.1.2.tgz#6f232878b30f1514863e39d8e2e89069948ca345"
+  integrity sha512-6cIN1Ph1gutDKj4Sh+J/izRBP1i9yGcEcmFKdTVzAOAV4yFnAwcvPrM6W/T7NhpfwHPTIANKObRgTQO5qwWllw==
+  dependencies:
+    "@animated-burgers/burger" "^1.1.2"
+
+"@animated-burgers/burger@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@animated-burgers/burger/-/burger-1.1.2.tgz#a75f7147f9d4041b8bfd510e0097a1500c4fa009"
+  integrity sha512-hErU9dlOcEeYbmbhhngBMXSDtqOaXfFEnKoodfs6vCFWD8dVLMNVbFFpZ0eV7/Wa9kKTGLPeLtDeP0vWYAcY7w==
+
 "@babel/code-frame@7.10.4", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.5.5":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -1985,7 +1997,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.2.6:
+classnames@2.2.6, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -3308,6 +3320,11 @@ jsonfile@^4.0.0:
   integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
   optionalDependencies:
     graceful-fs "^4.1.6"
+
+keen-slider@^5.3.5:
+  version "5.3.5"
+  resolved "https://registry.yarnpkg.com/keen-slider/-/keen-slider-5.3.5.tgz#29ac24fd7dbf1f1435bd448e0e583cded36b4b91"
+  integrity sha512-3QYvrFK7HbtkiC98/G+RM44y9WBe9cpHDHtP9bI1J/Vrc54IHLuTjOjyX4E81ukRc5GwiGfijOwStxEhisFnPg==
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
