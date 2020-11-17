@@ -7,14 +7,14 @@ export default function Hero() {
             <div className="md:max-w-6xl md:mx-auto">
               <div className="md:flex md:flex-wrap">
                 <div className="text-center md:w-1/2 md:text-left md:pt-16">
-                  <h1 className="mb-4 text-3xl font-bold leading-tight text-white md:text-5xl lg:text-6xl ">
+                  <h1 className="mb-0 text-3xl font-bold leading-tight text-white md:text-5xl lg:text-6xl ">
                     Laurynas Valiulis
                   </h1>
 
-                  <p className="text-indigo-200 md:text-lg md:pr-32 lg:pr-48">
+                  {/* <p className="text-indigo-200 md:text-lg md:pr-32 lg:pr-48">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id vitae corrupti asperiores veritatis
                     dolorum, commodi aperiam enim.
-                  </p>
+                  </p> */}
 
                   <a
                     href="/#portfolio"

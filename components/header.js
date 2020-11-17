@@ -9,17 +9,18 @@ export default function Header() {
       href: '/#home'
     },
     {
-      name: 'signal',
-      href: '/#skils'
+      name: 'user',
+      href: '/#about'
     },
     {
       name: 'plane',
       href: '/#journey'
     },
     {
-      name: 'book',
+      name: 'address-card',
       href: '/#portfolio'
-    }
+    },
+    { name: 'book', href: '/#contact' }
   ];
 
   const [nav, setNav] = React.useState(false);

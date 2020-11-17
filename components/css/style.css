@@ -35,3 +35,13 @@ html {
 nav {
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.18);
 }
+
+.portfolio-hover {
+  bottom: -100px;
+  padding: 20px 20px 20px;
+  transition: all, 0.5s;
+}
+
+.porftolio-item:hover .portfolio-hover {
+  bottom: 0;
+}

@@ -1,7 +1,7 @@
 export default function Skils() {
   return (
     <>
-      <div className="flex items-center text-gray-800" style={{ marginTop: '-8%' }} id="skils">
+      <div className="container flex items-center mx-auto text-gray-800" id="skils">
         <div className="w-full p-10">
           <div className="grid grid-cols-6 gap-4 md:grid-cols-8">
             <div className="col-span-12 shadow-md sm:col-span-12 md:col-span-4 lg:col-span-2">
@@ -10,7 +10,7 @@ export default function Skils() {
                   <i className="text-2xl fa fa-home"></i>
                 </div>
                 <div className="mt-4 ml-4">
-                  <div className="text-sm text-white">Up to Date</div>
+                  <div className="text-sm text-white">Graphic Design</div>
                 </div>
               </div>
             </div>
@@ -20,7 +20,7 @@ export default function Skils() {
                   <i className="text-2xl fa fa-home"></i>
                 </div>
                 <div className="mt-4 ml-4">
-                  <div className="text-sm text-gray-900">Responsive Design</div>
+                  <div className="text-sm text-gray-900">Web Design</div>
                 </div>
               </div>
             </div>
@@ -30,7 +30,7 @@ export default function Skils() {
                   <i className="text-2xl fa fa-home"></i>
                 </div>
                 <div className="mt-4 ml-4">
-                  <div className="text-sm text-white">Up to Date</div>
+                  <div className="text-sm text-white">Software</div>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function Skils() {
                   <i className="text-2xl fa fa-home"></i>
                 </div>
                 <div className="mt-4 ml-4">
-                  <div className="text-sm text-gray-900">Responsive Design</div>
+                  <div className="text-sm text-gray-900">Web Developer</div>
                 </div>
               </div>
             </div>{' '}

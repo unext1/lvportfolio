@@ -19,19 +19,25 @@ export default function Skils() {
 
   const portfolio = [
     {
-      name: 'aurehome',
+      name: 'Aurehome.com',
       image: 'https://i.imgur.com/8RvoUhC.png',
       href: 'https://aurehome.com/',
       id: 1
     },
     {
-      name: 'aurehome',
+      name: 'Aurehome.com',
       image: 'https://i.imgur.com/8RvoUhC.png',
       href: 'https://aurehome.com/',
       id: 2
     },
     {
-      name: 'aurehome',
+      name: 'Aurehome.com',
+      image: 'https://i.imgur.com/8RvoUhC.png',
+      href: 'https://aurehome.com/',
+      id: 3
+    },
+    {
+      name: 'Aurehome.com',
       image: 'https://i.imgur.com/8RvoUhC.png',
       href: 'https://aurehome.com/',
       id: 3
@@ -49,15 +55,19 @@ export default function Skils() {
       <div ref={sliderRef} className="w-5/6 mx-auto mb-12 keen-slider">
         {portfolio.map((i) => (
           <div
-            className={`w-48 bg-blue-500 rounded-lg keen-slider__slide number-slide${i.id}`}
+            className={`porftolio-item w-48 rounded-lg keen-slider__slide number-slide${i.id}`}
             style={{ minWidth: '600px' }}
           >
             <a
               href={i.href}
               target="__blank"
-              className="flex items-center justify-center h-64 overflow-hidden transition duration-150 ease-in-out border-b-8 border-blue-500 rounded-md hover:opacity-50"
+              className="flex items-center justify-center h-64 overflow-hidden transition duration-150 ease-in-out border-b-8 border-blue-500 rounded-md "
             >
               <img className="object-cover w-full h-full" src={i.image} alt="" />
+              <div class="portfolio-hover text-white bg-blue-500 bg-opacity-75 absolute w-full left-0 ">
+                <h4 className="text-lg font-extrabold">{i.name}</h4>
+                <div className="mt-2 text-xs text-gray-300 uppercase">eShop / Perfum </div>
+              </div>
             </a>
           </div>
         ))}
