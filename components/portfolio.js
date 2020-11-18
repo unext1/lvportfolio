@@ -52,7 +52,7 @@ export default function Skils() {
         </h1>
       </div>
 
-      <div ref={sliderRef} className="w-5/6 mx-auto mb-12 keen-slider">
+      <div ref={sliderRef} className="container w-5/6 mx-auto mb-12 keen-slider">
         {portfolio.map((i) => (
           <div
             className={`porftolio-item w-48 rounded-lg keen-slider__slide number-slide${i.id}`}
@@ -63,7 +63,11 @@ export default function Skils() {
               target="__blank"
               className="flex items-center justify-center h-64 overflow-hidden transition duration-150 ease-in-out border-b-8 border-blue-500 rounded-md "
             >
-              <img className="object-cover w-full h-full" src={i.image} alt="" />
+              <img
+                className="object-cover w-full h-full transition duration-500 ease-in-out transform hover:scale-110"
+                src={i.image}
+                alt=""
+              />
               <div class="portfolio-hover text-white bg-blue-500 bg-opacity-75 absolute w-full left-0 ">
                 <h4 className="text-lg font-extrabold">{i.name}</h4>
                 <div className="mt-2 text-xs text-gray-300 uppercase">eShop / Perfum </div>

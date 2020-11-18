@@ -1,25 +1,35 @@
 export default function About() {
   return (
     <>
-      <div className="mt-16 mb-8 text-center" id="about" style={{ marginTop: '-9%' }}>
-        <h1 className="text-3xl font-bold text-gray-900 uppercase">
-          <span className="text-blue-500">About</span> Me
-        </h1>
-      </div>
-      <div className="w-4/5 mx-auto md:w-1/2 ">
-        <div className="text-gray-900 ">
-          <h3 className="text-left">
-            {' '}
-            <span className="font-bold text-blue-500">Hi I'm Laurynas</span> On her way she met a copy. The copy warned
-            the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything
-            that was left from its origin would be the word "and" and the Little Blind Text should turn around and
-            return to its own, safe country.
-            <div className="mt-6">
-              Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
-              One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World
-              of Grammar.
+      <div class="pt-16" id="about" style={{ marginTop: '-12%' }}>
+        <div class="container m-auto px-10">
+          <div class="lg:flex justify-between items-center">
+            <div class="lg:w-6/12 lg:p-0 p-7">
+              <h1 class="text-5xl font-bold leading-tight mb-3 capitalize ">
+                <span className="text-blue-500">About</span> Me
+              </h1>
+              <p class="text-lg text-gray-500 leading-6 tracking-wide">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.{' '}
+              </p>
+
+              <div class="py-5">
+                <a
+                  href="/#portfolio"
+                  className="inline-block px-8 py-3 mt-6 mb-12 text-white duration-150 ease-in-out transform bg-blue-500 rounded-lg shadow lg:mb-0 lg:mt-10 hover:bg-blue-600"
+                >
+                  Contact Me
+                </a>
+              </div>
             </div>
-          </h3>
+            <div class="lg:w-5/12 order-2">
+              <img
+                src="https://instagram.fmmx3-1.fna.fbcdn.net/v/t51.2885-15/e35/117174229_174356654134856_6049419479669161602_n.jpg?_nc_ht=instagram.fmmx3-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=deM_BRhyllAAX_A4S4D&tp=18&oh=cf08cd7665b40939ad1e254f1ff9359f&oe=5FDE9B83"
+                alt=""
+                class="rounded shadow-lg w-full object-cover img-about"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>

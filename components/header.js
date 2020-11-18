@@ -1,4 +1,5 @@
 import Burger from '@animated-burgers/burger-arrow';
+import React, { useState, useEffect } from 'react';
 
 import '@animated-burgers/burger-arrow/dist/styles.css';
 
@@ -23,9 +24,9 @@ export default function Header() {
     { name: 'book', href: '/#contact' }
   ];
 
-  const [nav, setNav] = React.useState(false);
+  const [nav, setNav] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (screen.width > 800) {
       setNav(true);
     }
@@ -42,7 +43,7 @@ export default function Header() {
                 className="w-10 h-10 mx-auto mb-3 transition duration-150 ease-in-out border-2 border-transparent rounded-full hover:border-blue-500"
               />
             </a>
-            ;
+            <a className="text-gray-900">a</a>
             <div className="">
               <ul>
                 {navLinks.map((i) => (

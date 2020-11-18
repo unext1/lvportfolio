@@ -6,6 +6,9 @@ main {
   main {
     padding-left: 0px;
   }
+  .img-about {
+    height: 300px !important;
+  }
 }
 
 .loptop-size {
@@ -44,4 +47,8 @@ nav {
 
 .porftolio-item:hover .portfolio-hover {
   bottom: 0;
+}
+
+.img-about {
+  height: 440px;
 }
