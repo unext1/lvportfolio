@@ -1,5 +1,5 @@
 import '../components/css/style.css';
-import '../public/styles.css';
+import '../styles/tailwind.css';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
